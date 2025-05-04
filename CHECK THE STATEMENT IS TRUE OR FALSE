@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    // Input two numbers
+    printf("Enter first number (a): ");
+    scanf("%d", &a);
+
+    printf("Enter second number (b): ");
+    scanf("%d", &b);
+
+    // Statement 1: a > b
+    if (a > b)
+        printf("Statement 1: a > b is TRUE\n");
+    else
+        printf("Statement 1: a > b is FALSE\n");
+
+    // Statement 2: a == b
+    if (a == b)
+        printf("Statement 2: a == b is TRUE\n");
+    else
+        printf("Statement 2: a == b is FALSE\n");
+
+    // Statement 3: a is even
+    if (a % 2 == 0)
+        printf("Statement 3: a is even is TRUE\n");
+    else
+        printf("Statement 3: a is even is FALSE\n");
+
+    // Statement 4: b is negative
+    if (b < 0)
+        printf("Statement 4: b is negative is TRUE\n");
+    else
+        printf("Statement 4: b is negative is FALSE\n");
+
+    // Statement 5: (a + b) > 100
+    if ((a + b) > 100)
+        printf("Statement 5: (a + b) > 100 is TRUE\n");
+    else
+        printf("Statement 5: (a + b) > 100 is FALSE\n");
+
+    return 0;
+}
